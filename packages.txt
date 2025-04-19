@@ -1,0 +1,15 @@
+plasma6-plasma vlc k3b kwrite konsole vscode firefox chromium ark audacious audacious-plugins dolphin-plugins vlc audacity gwenview okular kdenlive qbittorrent networkmgr lsblk cups cups-filters v4l-utils v4l_compat webcamd pwcview sudo
+drm-kmod sddm
+
+pkg install -y                 \
+    sysutils/e2fsprogs           \
+    sysutils/xfsprogs            \
+    sysutils/exfat-utils         \
+    sysutils/fusefs-exfat        \
+    sysutils/fusefs-ntfs         \
+    sysutils/fusefs-hfsfuse      \
+    sysutils/fusefs-lkl          \
+    sysutils/fusefs-simple-mtpfs
+    automount
+
+henry wheel operator video dialer network webcamd
