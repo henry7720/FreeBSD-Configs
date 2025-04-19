@@ -1,4 +1,28 @@
-plasma6-plasma vlc k3b kwrite konsole vscode firefox chromium ark audacious audacious-plugins dolphin-plugins vlc audacity gwenview okular kdenlive qbittorrent networkmgr lsblk cups cups-filters v4l-utils v4l_compat webcamd pwcview sudo
+plasma6-plasma
+k3b
+kwrite
+konsole
+vscode
+gcc gdb gmake valgrind fastfetch
+vim nano
+bash (chsh -s /usr/local/bin/bash henry)
+firefox chromium
+ark
+audacious audacious-plugins
+dolphin-plugins
+vlc
+audacity
+gwenview
+okular
+kdenlive
+qbittorrent
+networkmgr
+lsblk
+fcitx5 fcitx5-configtool-qt6 fcitx5-gtk-common fcitx5-gtk2 fcitx5-gtk3 fcitx5-gtk4 fcitx5-qt-common fcitx5-qt5 fcitx5-qt6 zh-fcitx5-chinese-addons
+# After fcitx5 install make the autostart shortcut it recommends, do bash-profile via fcitx-im.org recommendations
+noto-tc noto-sc
+cups cups-filters
+v4l-utils v4l_compat webcamd pwcview sudo (add for group wheel)
 drm-kmod sddm
 
 pkg install -y                 \
@@ -12,4 +36,5 @@ pkg install -y                 \
     sysutils/fusefs-simple-mtpfs
     automount
 
+Groups
 henry wheel operator video dialer network webcamd
