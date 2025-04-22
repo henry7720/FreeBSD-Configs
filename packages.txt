@@ -1,40 +1,44 @@
+drm-kmod
 plasma6-plasma
-k3b
-kwrite
 konsole
-vscode
-gcc gdb gmake valgrind fastfetch
-vim nano
-bash (chsh -s /usr/local/bin/bash henry)
-firefox chromium
-ark
-audacious audacious-plugins
+sddm
+
+firefox
+filezilla
+dolphin
 dolphin-plugins
-vlc
-audacity
-gwenview
-okular
+audacious
+audacious-plugins
+chromium
+
+gcc gdb gmake valgrind
+git
+gh
+filezilla
 kdenlive
+vscode
+gwenview okular ark
+audacity
+k3b
+kate
+vlc
 qbittorrent
-networkmgr
-lsblk
-fcitx5 fcitx5-configtool-qt6 fcitx5-gtk-common fcitx5-gtk2 fcitx5-gtk3 fcitx5-gtk4 fcitx5-qt-common fcitx5-qt5 fcitx5-qt6 zh-fcitx5-chinese-addons
-# After fcitx5 install make the autostart shortcut it recommends, do bash-profile via fcitx-im.org recommendations
+fastfetch
+
 noto-tc noto-sc
-cups cups-filters
-v4l-utils v4l_compat webcamd pwcview sudo (add for group wheel)
-drm-kmod sddm
+cups-filters
+bash
+sudo
+v4l-utils v4l_compat webcamd pwcview
 
-pkg install -y                 \
-    sysutils/e2fsprogs           \
-    sysutils/xfsprogs            \
-    sysutils/exfat-utils         \
-    sysutils/fusefs-exfat        \
-    sysutils/fusefs-ntfs         \
-    sysutils/fusefs-hfsfuse      \
-    sysutils/fusefs-lkl          \
-    sysutils/fusefs-simple-mtpfs
-    automount
+e2fsprogs
+xfsprogs
+exfat-utils
+fusefs-exfat
+fusefs-ntfs
+fusefs-hfsfuse
+fusefs-simple-mtpfs
 
-Groups
-henry wheel operator video dialer network webcamd
+fcitx5 fcitx5-configtool-qt6 fcitx5-gtk-common fcitx5-gtk2 fcitx5-gtk3 fcitx5-gtk4 fcitx5-qt-common fcitx5-qt5 fcitx5-qt6 zh-fcitx5-chinese-addons
+cp /usr/local/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/
+
