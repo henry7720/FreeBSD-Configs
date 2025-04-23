@@ -20,6 +20,8 @@ vscode
 gwenview okular ark
 audacity
 k3b
+kcalc
+libreoffice
 kate
 vlc
 qbittorrent
